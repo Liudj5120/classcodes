@@ -1,0 +1,97 @@
+! 文件合并
+! @E:\zi\codes\classcodes\fileMerge.class CepA 
+! @E:\zi\codes\classcodes\fileMerge.class L1206
+! @E:\zi\codes\classcodes\fileMerge.class L1287
+! @E:\zi\codes\classcodes\fileMerge.class 22198
+! @E:\zi\codes\classcodes\fileMerge.class G090.21
+! @E:\zi\codes\classcodes\fileMerge.class G105.41
+! @E:\zi\codes\classcodes\fileMerge.class G176.51
+! @E:\zi\codes\classcodes\fileMerge.class MONR2
+! @E:\zi\codes\classcodes\fileMerge.class OrionA
+! @E:\zi\codes\classcodes\fileMerge.class NGC2264
+
+
+! @D:\pmo\outflow\codes\classcodes\fileMergeCS.class D:\mydata MONR2 13CS
+! @D:\pmo\outflow\codes\classcodes\ave.class D:\mydata all 13CS
+! @D:\pmo\outflow\codes\classcodes\mkfits.class D:\mydata 13CS MONR2
+
+! @D:\pmo\outflow\codes\classcodes\fileMergeCS.class D:\mydata CepA 13CS
+! @D:\pmo\outflow\codes\classcodes\ave.class D:\mydata all 13CS
+! @D:\pmo\outflow\codes\classcodes\mkfits.class D:\mydata 13CS CepA
+
+
+! @D:\pmo\outflow\codes\classcodes\fileMergeCS.class E:\zi\mydata CepA CS
+! @D:\pmo\outflow\codes\classcodes\ave.class E:\zi\mydata all CS CepA
+! 
+! @D:\pmo\outflow\codes\classcodes\fileMergeCS.class E:\zi\mydata MONR2 CS
+! @D:\pmo\outflow\codes\classcodes\ave.class E:\zi\mydata all CS MONR2
+! 
+! @D:\pmo\outflow\codes\classcodes\fileMergeCS.class E:\zi\mydata 22198 CS
+! @D:\pmo\outflow\codes\classcodes\ave.class E:\zi\mydata all CS 22198
+! 
+! @D:\pmo\outflow\codes\classcodes\fileMergeCS.class E:\zi\mydata L1287 CS
+! @D:\pmo\outflow\codes\classcodes\ave.class E:\zi\mydata all CS L1287
+! 
+! @D:\pmo\outflow\codes\classcodes\fileMergeCS.class E:\zi\mydata G176 CS
+! @D:\pmo\outflow\codes\classcodes\ave.class E:\zi\mydata all CS G176
+! 
+! @D:\pmo\outflow\codes\classcodes\fileMergeCS.class E:\zi\mydata L1206 CS
+! @D:\pmo\outflow\codes\classcodes\ave.class E:\zi\mydata all CS L1206
+! 
+! @D:\pmo\outflow\codes\classcodes\fileMergeCS.class E:\zi\mydata G090 CS
+! @D:\pmo\outflow\codes\classcodes\ave.class E:\zi\mydata all CS G090
+! 
+! @D:\pmo\outflow\codes\classcodes\fileMergeCS.class E:\zi\mydata G105 CS
+! @D:\pmo\outflow\codes\classcodes\ave.class E:\zi\mydata all CS G105
+! 
+! @D:\pmo\outflow\codes\classcodes\fileMergeCS.class E:\zi\mydata NGC2264 CS
+! @D:\pmo\outflow\codes\classcodes\ave.class E:\zi\mydata all CS NGC2264
+
+
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\mydata CepACS 
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\mydata 22198CS
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\mydata MONR2CS
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\mydata NGC2264CS
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\mydata G105CS 
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\mydata G090CS 
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\mydata L1206CS
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\mydata G176CS 
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\mydata L1287CS
+
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\L1287   12co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\L1287   13co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\L1287   c18o
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\HCO\L1287   HCO
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\G17651  12co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\G17651  13co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\G17651  c18o
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\HCO\G17651  HCO
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\MONR2   12co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\MONR2   13co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\MONR2   c18o
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\HCO\MONR2   HCO
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\NGC2264 12co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\NGC2264 13co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\NGC2264 c18o
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\HCO\NGC2264 HCO
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\G09021  12co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\G09021  13co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\G09021  c18o
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\HCO\G09021  HCO
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\G10541  12co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\G10541  13co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\G10541  c18o
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\HCO\G10541  HCO
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\22198   12co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\22198   13co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\22198   c18o
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\HCO\22198   HCO
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\L1206   12co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\L1206   13co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\L1206   c18o
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\HCO\L1206   HCO
+@D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\CepA    12co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\CepA    13co
+! @D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\CO\CepA    c18o
+@D:\pmo\outflow\codes\classcodes\mkfits.class E:\zi\data\liu\HCO\CepA    HCO
+exit

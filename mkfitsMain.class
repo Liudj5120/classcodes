@@ -1,0 +1,10 @@
+! 制作fits，第一个参数为.sum文件路径，第二个参数为.sum文件名
+! fits文件将以与.sum文件相同的名字保存在相同路径下
+! @E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\CO\NGC2264 12co
+! @E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\CO\NGC2264 13co
+! @E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\CO\NGC2264 c18o
+! @E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\HCO\CepA hco_s
+! @E:\zi\codes\classcodes\mkfits.class F:\mydata\CepA 12co
+@E:\zi\codes\classcodes\mkfits.class F:\mydata\CepA 13co
+@E:\zi\codes\classcodes\mkfits.class F:\mydata\CepA c18o
+! @E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\HCO\CepA hcn_s

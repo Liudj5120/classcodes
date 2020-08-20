@@ -1,0 +1,25 @@
+! &1 -- .sum文件保存路径，生成文件保存路径
+! &2 -- .sum文件名，fits文件同名
+
+set unit v
+set angle min
+define char fitsfile*64
+let map%beam 49
+let fitsfile \&1\&2.fits
+if (FILE(fitsfile))
+	let map%like ‘fitsfile’
+else
+	let map%cell 30
+endif
+file in &1\&2.sum
+find /range -10 10 -10 10
+
+! set sys eq 1950
+set sys eq 2000
+sic dele D:\zz.*
+if found.GT.0
+	table D:\zz new /range -100 100 v
+	xy_map D:\zz 
+endif
+sic dele &1\&2_2.fits
+vector\fits &1\&2_2.fits from D:\zz.lmv /bits -32

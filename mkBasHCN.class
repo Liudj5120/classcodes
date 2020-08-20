@@ -1,0 +1,19 @@
+! C18O
+set unit v
+set align v
+
+file in &1/&2.rgd
+sic delete &1/HCN.bas
+file out &1/HCN.bas s !创建一个存放基线拟合数据的文件
+find /all
+for i 1 to found
+	get next
+	modify frequency 88631.8473 !HCN 的静止频率
+	modify line HCN(1-0)
+	set mode x -200 200 !设基线拟合的范围
+	set window -100 100 !设定谱线辐射范围
+	base 1 ! 基线拟合
+	if sigma.LT.1.5
+		write
+	endif
+next

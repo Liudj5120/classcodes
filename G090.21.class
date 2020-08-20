@@ -1,0 +1,10 @@
+! G090.21
+! 合并文件
+@E:\zi\codes\classcodes\fileMerge.class F:\mydata\G090.21 U I:\zi\data\liu\HCO\G090.21 hco+
+
+
+@E:\zi\codes\classcodes\ave.class I:\zi\data\liu\HCO\G090.21 allU hco
+@E:\zi\codes\classcodes\aveHCN.class I:\zi\data\liu\HCO\G090.21 allU
+
+! @E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\HCO\G090.21 hcn
+! @E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\HCO\G090.21 hco

@@ -1,0 +1,26 @@
+! NGC2264
+! 合并文件
+@E:\zi\codes\classcodes\fileMerge.class F:\mydata\NGC2264 U I:\zi\data\liu\CO\NGC2264 12co
+@E:\zi\codes\classcodes\fileMerge.class F:\mydata\NGC2264 L I:\zi\data\liu\CO\NGC2264 13co
+@E:\zi\codes\classcodes\fileMerge.class F:\mydata\NGC2264 U I:\zi\data\liu\HCO\NGC2264 hco+
+
+
+
+@E:\zi\codes\classcodes\ave.class I:\zi\data\liu\CO\NGC2264 allU 12co
+@E:\zi\codes\classcodes\ave.class I:\zi\data\liu\CO\NGC2264 allL 13co
+@E:\zi\codes\classcodes\aveC18O.class I:\zi\data\liu\CO\NGC2264 allL
+@E:\zi\codes\classcodes\ave.class I:\zi\data\liu\HCO\NGC2264 allU hco
+@E:\zi\codes\classcodes\aveHCN.class I:\zi\data\liu\HCO\NGC2264 allU
+@E:\zi\codes\classcodes\temp.class I:\zi\data\liu\HCO\NGC2264
+
+@E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\HCO\NGC2264 12co
+@E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\HCO\NGC2264 13co
+@E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\HCO\NGC2264 c18o
+@E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\HCO\NGC2264 hcn
+@E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\HCO\NGC2264 hco
+
+@E:\zi\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\NGC2264 12co -60 40 -20 0
+@E:\zi\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\NGC2264 13co -60 40 -20 0
+@E:\zi\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\NGC2264 c18o -60 40 -20 0
+@E:\zi\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\NGC2264 hcn -60 40 -20 0
+@E:\zi\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\NGC2264 hco -60 40 -20 0

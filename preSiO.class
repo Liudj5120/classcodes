@@ -1,0 +1,15 @@
+set unit v
+set angle min
+sic dele E:\temp.rgd
+file out E:\temp.rgd s
+file in E:\zi\mydata\sigPnt\G176.rgd
+find /off 0 0  ! /source CepA
+for i 1 to found
+	get n
+	set mod x -100 100
+	set window -50 50
+	base 1
+	write
+next
+@D:\pmo\outflow\codes\classcodes\mkfitsSiO.class
+exit

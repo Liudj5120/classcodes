@@ -1,0 +1,84 @@
+! Cep A
+! @I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\CepA U I:\zi\data\liu\HCO\CepA HCO+
+! @F:\pmo\codes\classcodes\mkBasHCN.class I:/zi/data/liu/HCO/CepA allU HCN
+! @I:\zi\liu\myprograms\classcodes\chgSource.class I:/zi/data/liu/HCO/CepA HCN CepA
+! @F:\pmo\codes\classcodes\temp.class I:/zi/data/liu/HCO/CepA HCN
+! @F:\pmo\codes\classcodes\aveHCN.class I:/zi/data/liu/HCO/CepA allU HCN
+
+
+
+
+
+! ! L1287
+! @I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\L1287 U I:\zi\data\liu\HCO\L1287 HCO+
+! @F:\pmo\codes\classcodes\mkBasHCN.class I:/zi/data/liu/HCO/L1287 allU HCN
+! @I:\zi\liu\myprograms\classcodes\chgSource.class I:/zi/data/liu/HCO/L1287 HCN L1287
+! @F:\pmo\codes\classcodes\temp.class I:/zi/data/liu/HCO/L1287 HCN
+! @F:\pmo\codes\classcodes\aveHCN.class I:/zi/data/liu/HCO/L1287 allU HCN
+
+
+
+! L1206
+! @I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\L1206 U I:\zi\data\liu\HCO\L1206 HCO+
+! @F:\pmo\codes\classcodes\mkBasHCN.class I:/zi/data/liu/HCO/L1206 allU HCN
+! @I:\zi\liu\myprograms\classcodes\chgSource.class I:/zi/data/liu/HCO/L1206 HCN L1206
+! @F:\pmo\codes\classcodes\temp.class I:/zi/data/liu/HCO/L1206 HCN
+! @F:\pmo\codes\classcodes\aveHCN.class I:/zi/data/liu/HCO/L1206 allU HCN
+
+
+! MONR2
+! @I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\MONR2 U I:\zi\data\liu\HCO\MONR2 HCO+
+! @F:\pmo\codes\classcodes\mkBasHCN.class I:/zi/data/liu/HCO/MONR2 allU HCN
+! @I:\zi\liu\myprograms\classcodes\chgSource.class I:/zi/data/liu/HCO/MONR2 HCN MONR2
+! @F:\pmo\codes\classcodes\temp.class I:/zi/data/liu/HCO/MONR2 HCN
+! @F:\pmo\codes\classcodes\aveHCN.class I:/zi/data/liu/HCO/MONR2 allU HCN
+
+! NGC2264
+! @I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\NGC2264 U I:\zi\data\liu\HCO\NGC2264 HCO+
+! @F:\pmo\codes\classcodes\mkBasHCN.class I:/zi/data/liu/HCO/NGC2264 allU HCN
+! @I:\zi\liu\myprograms\classcodes\chgSource.class I:/zi/data/liu/HCO/NGC2264 HCN NGC2264
+! @F:\pmo\codes\classcodes\temp.class I:/zi/data/liu/HCO/NGC2264 HCN
+! @F:\pmo\codes\classcodes\aveHCN.class I:/zi/data/liu/HCO/NGC2264 allU HCN
+
+
+! 22198
+! @I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\22198 U I:\zi\data\liu\HCO\22198 HCO+
+! @F:\pmo\codes\classcodes\mkBasHCN.class I:/zi/data/liu/HCO/22198 allU HCN
+! @I:\zi\liu\myprograms\classcodes\chgSource.class I:/zi/data/liu/HCO/22198 HCN 22198
+! @F:\pmo\codes\classcodes\temp.class I:/zi/data/liu/HCO/22198 HCN
+! @F:\pmo\codes\classcodes\aveHCN.class I:/zi/data/liu/HCO/22198 allU HCN
+
+
+! G176.51
+@I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\G176.51 U I:\zi\data\liu\HCO\G176.51 HCO+
+@F:\pmo\codes\classcodes\mkBasHCN.class I:/zi/data/liu/HCO/G176.51 allU HCN
+@I:\zi\liu\myprograms\classcodes\chgSource.class I:/zi/data/liu/HCO/G176.51 HCN G176.51
+@F:\pmo\codes\classcodes\temp.class I:/zi/data/liu/HCO/G176.51 HCN
+@F:\pmo\codes\classcodes\aveHCN.class I:/zi/data/liu/HCO/G176.51 allU HCN
+
+
+
+! G090.21
+! @I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\G090.21 U I:\zi\data\liu\HCO\G090.21 HCO+
+! @F:\pmo\codes\classcodes\mkBasHCN.class I:/zi/data/liu/HCO/G090.21 allU HCN
+! @I:\zi\liu\myprograms\classcodes\chgSource.class I:/zi/data/liu/HCO/G090.21 HCN G090.21
+! @F:\pmo\codes\classcodes\temp.class I:/zi/data/liu/HCO/G090.21 HCN
+! @F:\pmo\codes\classcodes\aveHCN.class I:/zi/data/liu/HCO/G090.21 allU HCN
+
+! G105.41
+! @I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\G105.41 U I:\zi\data\liu\HCO\G105.41 HCO+
+! @F:\pmo\codes\classcodes\mkBasHCN.class I:/zi/data/liu/HCO/G105.41 allU HCN
+! @I:\zi\liu\myprograms\classcodes\chgSource.class I:/zi/data/liu/HCO/G105.41 HCN G105.41
+! @F:\pmo\codes\classcodes\temp.class I:/zi/data/liu/HCO/G105.41 HCN
+! @F:\pmo\codes\classcodes\aveHCN.class I:/zi/data/liu/HCO/G105.41 allU HCN
+
+! @I:\zi\liu\myprograms\classcodes\mkfits.class I:\zi\data\liu\HCO\CepA HCN
+! @\home\pmo\liu\myprograms\classcodes\mkfits.class /media/pmo/WD/zi/data/liu/HCO/L1287 HCN
+! @\home\pmo\liu\myprograms\classcodes\mkfits.class /media/pmo/WD/zi/data/liu/HCO/L1206 HCN
+! @\home\pmo\liu\myprograms\classcodes\mkfits.class /media/pmo/WD/zi/data/liu/HCO/MONR2 HCN
+! @\home\pmo\liu\myprograms\classcodes\mkfits.class /media/pmo/WD/zi/data/liu/HCO/NGC2264 HCN
+! @\home\pmo\liu\myprograms\classcodes\mkfits.class /media/pmo/WD/zi/data/liu/HCO/22198 HCN
+! @\home\pmo\liu\myprograms\classcodes\mkfits.class /media/pmo/WD/zi/data/liu/HCO/G176.51 HCN
+! @\home\pmo\liu\myprograms\classcodes\mkfits.class /media/pmo/WD/zi/data/liu/HCO/G090.21 HCN
+! @\home\pmo\liu\myprograms\classcodes\mkfits.class /media/pmo/WD/zi/data/liu/HCO/G105.41 HCN
+

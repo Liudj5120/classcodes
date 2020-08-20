@@ -1,0 +1,12 @@
+set unit v
+set align v
+
+file in &1\&2.bas
+sic delete &1\aa.bas
+file out &1\aa.bas s !创建一个存放基线拟合数据的文件
+find /all
+for i 1 to found
+	get next 
+	modify source G176.51+0.20
+	write
+next

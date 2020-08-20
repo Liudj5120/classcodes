@@ -1,0 +1,10 @@
+! MONR2
+! 合并文件
+@E:\zi\codes\classcodes\fileMerge.class F:\mydata\MONR2 U I:\zi\data\liu\HCO\MONR2 hco+
+
+
+@E:\zi\codes\classcodes\ave.class I:\zi\data\liu\HCO\MONR2 allU hco
+@E:\zi\codes\classcodes\aveHCN.class I:\zi\data\liu\HCO\MONR2 allU
+
+! @E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\HCO\MONR2 hcn
+! @E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\HCO\MONR2 hco

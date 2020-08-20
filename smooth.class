@@ -1,0 +1,19 @@
+set unit v
+set align v
+
+file in I:\zi\data\liu\CO\CepA\13co.sum
+sic dele I:\zi\data\liu\CO\CepA\13co_s.sum
+file out I:\zi\data\liu\CO\CepA\13co_s.sum s
+set angle min
+find /range -10 10 -10 10! 对这个区域内的信号对强度积分
+! set nomatch
+! Average /resample
+for i 1 to found
+	get n
+	smooth box 3
+	set mod x -100 100
+	! set mod y -.3 1
+	! set win -40 20! 设置信号范围
+	! base 1 ! 基线拟合，基线拟合会将设置的信号范围剔除
+	write
+next

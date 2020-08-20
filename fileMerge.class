@@ -1,0 +1,19 @@
+
+! HCO+ / HCN
+! &1 -- .bur文件路径
+! &2 -- U/L，上下边带
+! &3 -- .rgd文件保存路径
+! &4 -- 谱线名
+sic find &1\*&2.bur
+sic dele &3\all&2.rgd
+file out &3\all&2.rgd s
+
+for i 1 to 'dir%nfile'
+	file in &1\'dir%file[i]'
+	find /lin &4*
+	if found.GT.441
+		copy
+	endif
+next
+
+exit

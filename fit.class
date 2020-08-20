@@ -1,0 +1,24 @@
+set unit v
+set align v
+
+! file in I:\zi\data\liu\CO\CepA\12co.sum
+
+file in F:\mydata\CepA\c18o.sum
+
+set angle min
+find /range -5 5 -5 5! 对这个区域内的信号对强度积分
+set nomatch
+Average /resample
+set mod x -50 30
+set mod y -.1 1
+set win -20 0! 设置信号范围
+! map /gr
+set plot h
+! smooth box 8
+smooth box 5
+! smooth box 2
+base 1 ! 基线拟合，基线拟合会将设置的信号范围剔除
+plot
+line 0
+min 
+vis

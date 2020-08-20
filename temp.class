@@ -1,0 +1,18 @@
+set unit v
+set align v
+set angle min !设置坐标单位为角分
+set weight sigma !设置加权方式为sigma加权
+file in &1\aa.bas
+sic delete &1\hco.sum
+file out &1\hco.sum s
+for i -10 to 10 by 0.5
+	for j -10 to 10 by 0.5
+	find /offset i j !找到偏离中心位置相同的谱线
+		if found.GT.0 !此判据是以防found出错
+			average /resample!谱线求平均
+			let telescope "DLH14m" !为结果数据添加望远镜名称
+			write
+		endif
+	next
+next
+say HCN ok!

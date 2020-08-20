@@ -1,0 +1,73 @@
+! Cep A
+! @I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\CepA U I:\zi\data\liu\HCO\CepA HCO+
+! @I:\zi\liu\myprograms\classcodes\mkBas.class I:\zi\data\liu\HCO\CepA allU HCO
+! @I:\zi\liu\myprograms\classcodes\chgSource.class I:\zi\data\liu\HCO\CepA HCO CepA
+! @I:\zi\liu\myprograms\classcodes\temp.class I:\zi\data\liu\HCO\CepA HCO
+
+
+
+
+! ! L1287
+! @I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\L1287 U I:\zi\data\liu\HCO\L1287 HCO+
+! @I:\zi\liu\myprograms\classcodes\mkBas.class I:\zi\data\liu\HCO\L1287 allU HCO
+! @I:\zi\liu\myprograms\classcodes\chgSource.class I:\zi\data\liu\HCO\L1287 HCO L1287
+! @I:\zi\liu\myprograms\classcodes\temp.class I:\zi\data\liu\HCO\L1287 HCO
+
+
+! L1206
+! @I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\L1206 U I:\zi\data\liu\HCO\L1206 HCO+
+! @I:\zi\liu\myprograms\classcodes\mkBas.class I:\zi\data\liu\HCO\L1206 allU HCO
+! @I:\zi\liu\myprograms\classcodes\chgSource.class I:\zi\data\liu\HCO\L1206 HCO L1206
+! @I:\zi\liu\myprograms\classcodes\temp.class I:\zi\data\liu\HCO\L1206 HCO
+
+
+! MONR2
+! @I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\MONR2 U I:\zi\data\liu\HCO\MONR2 HCO+
+! @I:\zi\liu\myprograms\classcodes\mkBas.class I:\zi\data\liu\HCO\MONR2 allU HCO
+! @I:\zi\liu\myprograms\classcodes\chgSource.class I:\zi\data\liu\HCO\MONR2 HCO MONR2
+! @I:\zi\liu\myprograms\classcodes\temp.class I:\zi\data\liu\HCO\MONR2 HCO
+
+! NGC2264
+! @I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\NGC2264 U I:\zi\data\liu\HCO\NGC2264 HCO+
+! @I:\zi\liu\myprograms\classcodes\mkBas.class I:\zi\data\liu\HCO\NGC2264 allU HCO
+! @I:\zi\liu\myprograms\classcodes\chgSource.class I:\zi\data\liu\HCO\NGC2264 HCO NGC2264
+! @I:\zi\liu\myprograms\classcodes\temp.class I:\zi\data\liu\HCO\NGC2264 HCO
+
+
+! 22198
+! @I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\22198 U I:\zi\data\liu\HCO\22198 HCO+
+! @I:\zi\liu\myprograms\classcodes\mkBas.class I:\zi\data\liu\HCO\22198 allU HCO
+! @I:\zi\liu\myprograms\classcodes\chgSource.class I:\zi\data\liu\HCO\22198 HCO 22198
+! @I:\zi\liu\myprograms\classcodes\temp.class I:\zi\data\liu\HCO\22198 HCO
+
+
+! G176.51
+! @I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\G176.51 U I:\zi\data\liu\HCO\G176.51 HCO+
+! @I:\zi\liu\myprograms\classcodes\mkBas.class I:\zi\data\liu\HCO\G176.51 allU HCO
+! @I:\zi\liu\myprograms\classcodes\chgSource.class I:\zi\data\liu\HCO\G176.51 HCO G176.51
+! @I:\zi\liu\myprograms\classcodes\temp.class I:\zi\data\liu\HCO\G176.51 HCO
+
+
+
+! G090.21
+! @I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\G090.21 U I:\zi\data\liu\HCO\G090.21 HCO+
+! @I:\zi\liu\myprograms\classcodes\mkBas.class I:\zi\data\liu\HCO\G090.21 allU HCO
+! @I:\zi\liu\myprograms\classcodes\chgSource.class I:\zi\data\liu\HCO\G090.21 HCO G090.21
+! @I:\zi\liu\myprograms\classcodes\temp.class I:\zi\data\liu\HCO\G090.21 HCO
+
+! G105.41
+! @I:\zi\liu\myprograms\classcodes\fileMerge.class I:\zi\mydata\G105.41 U I:\zi\data\liu\HCO\G105.41 HCO+
+! @I:\zi\liu\myprograms\classcodes\mkBas.class I:\zi\data\liu\HCO\G105.41 allU HCO
+! @I:\zi\liu\myprograms\classcodes\chgSource.class I:\zi\data\liu\HCO\G105.41 HCO G105.41
+! @I:\zi\liu\myprograms\classcodes\temp.class I:\zi\data\liu\HCO\G105.41 HCO
+
+@I:\zi\liu\myprograms\classcodes\mkfits.class I:\zi\data\liu\HCO\CepA HCO
+@I:\zi\liu\myprograms\classcodes\mkfits.class I:\zi\data\liu\HCO\L1287 HCO
+@I:\zi\liu\myprograms\classcodes\mkfits.class I:\zi\data\liu\HCO\L1206 HCO
+@I:\zi\liu\myprograms\classcodes\mkfits.class I:\zi\data\liu\HCO\MONR2 HCO
+@I:\zi\liu\myprograms\classcodes\mkfits.class I:\zi\data\liu\HCO\NGC2264 HCO
+@I:\zi\liu\myprograms\classcodes\mkfits.class I:\zi\data\liu\HCO\22198 HCO
+@I:\zi\liu\myprograms\classcodes\mkfits.class I:\zi\data\liu\HCO\G176.51 HCO
+@I:\zi\liu\myprograms\classcodes\mkfits.class I:\zi\data\liu\HCO\G090.21 HCO
+@I:\zi\liu\myprograms\classcodes\mkfits.class I:\zi\data\liu\HCO\G105.41 HCO
+

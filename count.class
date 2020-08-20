@@ -1,0 +1,18 @@
+! 统计观测遍数
+! &1 -- 创建count.dat文件路径
+! &2 -- 文件保存路径
+! &3 -- 源名
+! &4 -- 谱线名
+sic output &1\count.dat a
+sic find &2\*.bur
+define integer j
+define integer k
+for i 1 to 'dir%nfile'
+	file in &2\'dir%file[i]'
+	find /source *&3* /lin &4*
+	if found.GT.441
+		let j j+1
+	endif
+next
+say &3 &4 'j'
+sic output

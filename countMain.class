@@ -1,0 +1,51 @@
+sic output D:\mydata\count.dat a
+say 
+say 20200514
+@D:\pmo\outflow\codes\classcodes\count.class D:\mydata D:\mydata CepA CS
+@D:\pmo\outflow\codes\classcodes\count.class D:\mydata D:\mydata MONR2 CS
+@D:\pmo\outflow\codes\classcodes\count.class D:\mydata D:\mydata NGC CS
+@D:\pmo\outflow\codes\classcodes\count.class D:\mydata D:\mydata 22198 CS
+
+
+! @D:\pmo\outflow\codes\classcodes\count.class D:\mydata D:\mydata MONR2 13CS
+! @D:\pmo\outflow\codes\classcodes\count.class D:\mydata D:\mydata CepA 13CS
+
+
+
+
+! 12co统计
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\G176.51  U 12co 
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\L1287  U 12co 
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\L1206  U 12co 
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\G105.41  U 12co 
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\MONR2  U 12co 
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\CepA  U 12co 
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\22198  U 12co 
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\NGC2264  U 12co 
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\G090.21  U 12co 
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\OrionA  U 12co 
+! ! 13co统计                         
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\G176.51 L 13co 
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\L1287  L 13co
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\L1206  L 13co
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\G105.41 L 13co 
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\MONR2  L 13co
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\CepA  L 13co
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\22198  L 13co
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\NGC2264 L 13co 
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\G090.21 L 13co 
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\OrionA  L 13co
+! hco统计                                        
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\G176.51  U hco+ 
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\L1287  U hco+
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\L1206  U hco+
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\G105.41  U hco+ 
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\MONR2  U hco+
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\CepA  U hco+
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\22198  U hco+
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\NGC2264  U hco+ 
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\G090.21  U hco+ 
+! @F:\pmo\codes\classcodes\count.class I:\zi\mydata\ I:\zi\mydata\OrionA  U hco+
+
+sic output
+exit

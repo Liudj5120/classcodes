@@ -1,0 +1,11 @@
+! main
+! @E:\zi\codes\classcodes\G090.21.class
+! @E:\zi\codes\classcodes\G105.41.class
+! @E:\zi\codes\classcodes\G176.51.class
+! @E:\zi\codes\classcodes\temp.class I:\zi\data\liu\HCO\G176.51
+! @E:\zi\codes\classcodes\MONR2.class
+! @E:\zi\codes\classcodes\chgSource.class I:\zi\data\liu\HCO\G176.51 hco
+
+@E:\zi\codes\classcodes\fileMerge.class F:\mydata\OrionA U I:\zi\data\liu\HCO\OrionA hco+
+
+@E:\zi\codes\classcodes\ave.class I:\zi\data\liu\HCO\OrionA allU hcotemp1

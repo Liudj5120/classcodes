@@ -1,0 +1,4 @@
+! C18O相同位置求平均
+! 第一个参数为.rgd文件保存路径，生成的文件也会保存在该路径下
+! 第二个参数为rgd文件名
+@E:\zi\codes\classcodes\aveC18O.class I:\zi\data\liu\CO\CepA allL.rgd

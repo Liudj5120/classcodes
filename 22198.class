@@ -1,0 +1,9 @@
+! 22198
+! 合并文件
+@E:\zi\codes\classcodes\fileMerge.class F:\mydata\22198 U I:\zi\data\liu\HCO\22198 hco+
+
+@E:\zi\codes\classcodes\ave.class I:\zi\data\liu\HCO\22198 allU hco
+@E:\zi\codes\classcodes\aveHCN.class I:\zi\data\liu\HCO\22198 allU
+
+@E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\HCO\22198 hcn
+@E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\HCO\22198 hco

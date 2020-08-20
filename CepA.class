@@ -1,0 +1,14 @@
+! CepA
+! 合并文件
+! @E:\zi\codes\classcodes\fileMerge.class F:\mydata\CepA U D:\mydata\CepA 12co
+! @E:\zi\codes\classcodes\fileMerge.class F:\mydata\CepA L D:\mydata\CepA 13co
+
+! @E:\zi\codes\classcodes\ave.class D:\mydata\CepA allU 12co
+! @E:\zi\codes\classcodes\ave.class D:\mydata\CepA allL 13co
+! @E:\zi\codes\classcodes\aveC18O.class D:\mydata\CepA allL
+! @E:\zi\codes\classcodes\aveHCN.class I:\zi\data\liu\HCO\L1206 allU
+
+! @E:\zi\codes\classcodes\temp.class I:\zi\data\liu\HCO\L1206
+
+! @E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\HCO\L1206 hcn
+! @E:\zi\codes\classcodes\mkfits.class I:\zi\data\liu\HCO\L1206 hco

@@ -1,0 +1,82 @@
+! 生成rms的fits文件
+! &1 -- .sum文件保存路径，生成文件保存在该路径下
+! &2 -- .sum文件名，生成文件将用rms_&2命名
+! &3, &4 -- 基线拟合范围
+! &5, &6 -- 信号范围
+! &7 -- 通道平滑速度范围
+
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class E:\zi\mydata L1287CS -100 100 -50 50 0.8
+@D:\pmo\outflow\codes\classcodes\mkfitsRMS.class E:\zi\mydata G176CS -100 100 -50 50 0.8
+@D:\pmo\outflow\codes\classcodes\mkfitsRMS.class E:\zi\mydata MonR2CS -100 100 -50 50 0.8
+@D:\pmo\outflow\codes\classcodes\mkfitsRMS.class E:\zi\mydata NGC2264CS -100 100 -50 50 0.8
+@D:\pmo\outflow\codes\classcodes\mkfitsRMS.class E:\zi\mydata G105CS -100 100 -50 50 0.8
+@D:\pmo\outflow\codes\classcodes\mkfitsRMS.class E:\zi\mydata G090CS -100 100 -50 50 0.8
+@D:\pmo\outflow\codes\classcodes\mkfitsRMS.class E:\zi\mydata 22198CS -100 100 -50 50 0.8
+@D:\pmo\outflow\codes\classcodes\mkfitsRMS.class E:\zi\mydata L1206CS -100 100 -50 50 0.8
+@D:\pmo\outflow\codes\classcodes\mkfitsRMS.class E:\zi\mydata CepACS -100 100 -50 50 0.8
+
+
+
+
+
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\L1287 HCO -100 100 -50 50 0.8
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\G176.51 HCO -100 100 -50 50 0.8
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\MonR2 HCO -100 100 -50 50 0.8
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\NGC2264 HCO -100 100 -50 50 0.8
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\G090.21 HCO -100 100 -50 50 0.8
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\G105.41 HCO -100 100 -50 50 0.8
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\22198 HCO -100 100 -50 50 0.8
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\L1206 HCO -100 100 -50 50 0.8
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\CepA HCO -100 100 -50 50 0.8
+
+@D:\pmo\outflow\codes\classcodes\mkfitsRMS.class D:\mydata CepACS -100 100 -50 50 0.8
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\G176.51 HCO -100 100 -50 50 0.8
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\MonR2 HCO -100 100 -50 50 0.8
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\NGC2264 HCO -100 100 -50 50 0.8
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\G090.21 HCO -100 100 -50 50 0.8
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\G105.41 HCO -100 100 -50 50 0.8
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\22198 HCO -100 100 -50 50 0.8
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\L1206 HCO -100 100 -50 50 0.8
+! @D:\pmo\outflow\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\CepA HCO -100 100 -50 50 0.8
+
+
+
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\L1287 hcn -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\G176.51 hcn -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\MonR2 hcn -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\NGC2264 hcn -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\G090.21 hcn -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\G105.41 hcn -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\22198 hcn -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\L1206 hcn -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\HCO\CepA hcn -100 100 -50 50 0.8
+! 
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\L1287 12co -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\G176.51 12co -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\MonR2 12co -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\NGC2264 12co -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\G090.21 12co -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\G105.41 12co -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\22198 12co -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\L1206 12co -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\CepA 12co -100 100 -50 50 0.8
+! 
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\L1287 13co -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\G176.51 13co -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\MonR2 13co -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\NGC2264 13co -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\G090.21 13co -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\G105.41 13co -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\22198 13co -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\L1206 13co -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\CepA 13co -100 100 -50 50 0.8
+! 
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\L1287 c18o -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\G176.51 c18o -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\MonR2 c18o -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\NGC2264 c18o -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\G090.21 c18o -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\G105.41 c18o -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\22198 c18o -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\L1206 c18o -100 100 -50 50 0.8
+! @F:\pmo\codes\classcodes\mkfitsRMS.class I:\zi\data\liu\CO\CepA c18o -100 100 -50 50 0.8

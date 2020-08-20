@@ -1,0 +1,34 @@
+! 制作rms的fits文件
+! &1 -- .sum文件保存路径，生成文件保存在该路径下
+! &2 -- .sum文件名，生成文件将用rms_&2命名
+! &3, &4 -- 为信号范围
+! &5 -- 为通道宽度
+
+set unit v
+set angle min
+
+let map%beam 54
+let map%cell 30
+file in &1\&2.sum
+sic dele &1\&2.sig
+file out &1\&2.sig s
+find /range -10 10 -10 10
+for i 1 to found
+	get n
+	set mod x &3 &4
+	resample 16384 1000 0 &5 v!将16384 个通道压缩成1000 个，150 为中心通道，0 为中心通道的速度，2 为每2km/s 合并为一个通道
+	! base 1
+	! let ry 'sigma'
+	write
+next
+file in &1\&2.sig
+find
+! set sys eq 1950
+set sys eq 2000
+sic dele zz.*
+if found.GT.0
+	table zz new /range -100 100 v
+	xy_map zz
+endif
+sic dele &1\&2&5.fits
+vector\fits &1\&2&5.fits from zz.lmv /bits -32
